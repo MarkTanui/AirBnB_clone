@@ -15,3 +15,15 @@ class FileStorage():
         5. Store first object
     """
 
+    __file_path = "object_contents.json"
+    __objects = {}
+
+
+    def all(self):
+        """ returns the dictionary __objects """
+        return self.__objects
+
+    def new(self, obj):
+        """sets in __objects the obj with key <obj class name>.id"""
+        key = obj.__class__.__name__ + "." + obj.id
+        self.__objects[key] = obj
