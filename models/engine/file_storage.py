@@ -39,6 +39,20 @@ class FileStorage():
         """deserializes the JSON file to __objects, only if the JSON file"""
         """__file_path exists ; otherwise, do nothing. If the file doesnt"""
         """exist, no exception should be raised"""
+
+        from ..base_model import BaseModel
+        from ..user import User
+        from ..state import State
+        from ..city import City
+        from ..amenity import Amenity
+        from ..place import Place
+        from ..review import Review
+
+        classes = [BaseModel, User, State, City, Amenity, Place, Review]
+        class_dict = dict()
+        for c in classes:
+            class_dict[c.__name__] = c
+
         if path.exists(self.__file_path):
             try:
                 with open(self.__file_path, "r") as file:
