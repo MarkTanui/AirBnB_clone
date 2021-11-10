@@ -1,7 +1,7 @@
 ## AirBnB clone - The console
 ### Learning Objectives
 
-#### General
+General
 
     How to create a Python package
     How to create a command interpreter in Python using the cmd module
@@ -26,7 +26,7 @@ Each task is linked and will help you to:
     create the first abstracted storage engine of the project: File storage.
     create all unittests to validate all our classes and storage engine
 
-#### Whats a command interpreter?
+Whats a command interpreter?
 
 Do you remember the Shell? Its exactly the same but limited to a specific use-case. In our case, we want to be able to manage the objects of our project:
 
@@ -93,7 +93,7 @@ EOF help quit
 (hbnb)
 
 $
-### Examples
+#### Examples
 
 (hbnb)create BaseModel
 49faff9a-6318-451f-87b6-910505c55907
