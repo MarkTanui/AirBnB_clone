@@ -93,20 +93,20 @@ EOF help quit
 (hbnb)
 
 $
-#### Examples
+### Examples
 
-(hbnb)create BaseModel
-49faff9a-6318-451f-87b6-910505c55907
-(hbnb)show BaseModel 49faff9a-6318-451f-87b6-910505c55907
-[BaseModel] (49faff9a-6318-451f-87b6-910505c55907) {'updated_at': datetime.datetime(2021, 2, 18, 18, 4, 12, 756946), 'created_at': datetime.datetime(2021, 2, 18, 18, 4, 12, 75683\
-6), 'id': '49faff9a-6318-451f-87b6-910505c55907'}
-(hbnb)update BaseModel 49faff9a-6318-451f-87b6-910505c55907 first_name "Betty"
-(hbnb)show BaseModel 49faff9a-6318-451f-87b6-910505c55907
-[BaseModel] (49faff9a-6318-451f-87b6-910505c55907) {'created_at': datetime.datetime(2017, 10, 2, 3, 10, 25, 903293), 'id': '49faff9a-6318-451f-87b6-910505c55907', 'updated_at': datetime.datetime(2017, 10, 2, 3, 10, 25, 903300)}
-(hbnb)destroy BaseModel 49faff9a-6318-451f-87b6-910505c55907
-(hbnb)show BaseModel 49faff9a-6318-451f-87b6-910505c55907
-** no instance found **
-(hbnb) quit
+    (hbnb)create BaseModel
+    49faff9a-6318-451f-87b6-910505c55907
+    (hbnb)show BaseModel 49faff9a-6318-451f-87b6-910505c55907
+    [BaseModel] (49faff9a-6318-451f-87b6-910505c55907) {'updated_at': datetime.datetime(2021, 2, 18, 18, 4, 12, 756946), 'created_at': datetime.datetime(2021, 2, 18, 18, 4, 12, 75683\
+    6), 'id': '49faff9a-6318-451f-87b6-910505c55907'}
+    (hbnb)update BaseModel 49faff9a-6318-451f-87b6-910505c55907 first_name "Betty"
+    (hbnb)show BaseModel 49faff9a-6318-451f-87b6-910505c55907
+    [BaseModel] (49faff9a-6318-451f-87b6-910505c55907) {'created_at': datetime.datetime(2017, 10, 2, 3, 10, 25, 903293), 'id': '49faff9a-6318-451f-87b6-910505c55907', 'updated_at': datetime.datetime(2017, 10, 2, 3, 10, 25, 903300)}
+    (hbnb)destroy BaseModel 49faff9a-6318-451f-87b6-910505c55907
+    (hbnb)show BaseModel 49faff9a-6318-451f-87b6-910505c55907
+    ** no instance found **
+    (hbnb) quit
 
 ### Authors
 
