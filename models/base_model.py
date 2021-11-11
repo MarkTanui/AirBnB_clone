@@ -9,7 +9,7 @@ class BaseModel:
 
     def __init__(self, *args, **kwargs):
 
-        """generate unique id converted to str and format datatime"""
+        """generate unique id converted to string and format datetime"""
 
         if kwargs:
             for key, value in kwargs.items():
